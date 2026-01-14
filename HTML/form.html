@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../style/form_style.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <form
+      action="table.html"
+      method="get"
+      enctype="multipart/form-data"
+      target="_blank"
+    >
+      Name: <input type="text" name="name" size="30" /><br />
+      Email:
+      <input type="email" name="email" placeholder="Example@gmail.com" /><br />
+      Phone: <input type="tel" name="phone" maxlength="10" /><br />
+      Address: <input type="text" name="address" /><br />
+      Gender: <input type="radio" name="Gender" id="Male" />Male
+      <input type="radio" name="Gender" id="Female" />Female<br />
+      Password: <input type="password" name="password" /><br />
+      Confirm Password: <input type="password" name="confirm_password" /><br />
+      <label for="">Select Country:</label>
+      <select name="country" multiple="multiple" size="6">
+        <optgroup label="Asia">
+          <option value="India">India</option>
+          <option value="China">China</option>
+          <option value="Japan">Japan</option>
+          <option value="South Korea">South Korea</option>
+          <option value="Thailand">Thailand</option>
+        </optgroup>
+        <optgroup label="Europe">
+          <option value="Germany">Germany</option>
+          <option value="France">France</option>
+          <option value="Italy">Italy</option>
+          <option value="Spain">Spain</option>
+          <option value="UK">UK</option>
+        </optgroup>
+        <optgroup label="North America">
+          <option value="USA">USA</option>
+          <option value="Canada">Canada</option>
+          <option value="Mexico">Mexico</option>
+          <option value="Brazil">Brazil</option>
+          <option value="Argentina">Argentina</option>
+        </optgroup>
+        <optgroup label="South America">
+          <option value="Peru">Peru</option>
+          <option value="Chile">Chile</option>
+          <option value="Bolivia">Bolivia</option>
+          <option value="Ecuador">Ecuador</option>
+          <option value="Venezuela">Venezuela</option>
+        </optgroup>
+      </select><br />
+      <textarea
+        cols="30"
+        rows="10"
+        placeholder="Write your message here...."
+      ></textarea
+      ><br />
+      <input type="checkbox" name="terms" /> I agree to the Terms and
+      Conditions<br />
+      <input type="datetime-local" /><br />
+      <input type="date" /><br />
+      <input type="time" /><br />
+      <input type="range" /><br />
+      <label for="file">Select a file:</label><br />
+      <input type="file" name="file" /><br />
+      <input type="submit" value="Submit" />
+      <input type="reset" value="Reset" />
+      <input type="hidden" name="hidden_field" value="hidden_value" /><br />
+      <input type="color" />
+    </form>
+  </body>
+</html>
