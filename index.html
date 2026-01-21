@@ -3,330 +3,505 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Singati Engineering Pvt Ltd | Engineering & Construction Solutions</title>
+    <title>Singati Engineering | Civil Construction & Engineering Solutions</title>
+    <meta name="description" content="Singati Engineering Pvt Ltd - Leading civil construction, engineering, and valuation services in Nepal since 2074 BS">
+    <meta name="keywords" content="engineering, construction, Nepal, civil engineering, valuation, design, Dolakha">
+    
+    <!-- Fonts & Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" type="image/x-icon" href="#">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
 </head>
-<body>
-    <!-- Header & Navigation -->
-    <header class="header">
-        <div class="container">
-            <nav class="navbar">
-                <a href="#home" class="logo">Singati Engineering Pvt Ltd</a>
-                <ul class="nav-menu">
-                    <li class="nav-item">
-                        <a href="#home" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#about" class="nav-link">About Us</a>
-                    </li>
-                    <li class="nav-item">
+<body class="loading">
+    <!-- Loading Screen -->
+   <div class="loading-screen">
+    <div class="loader">
+        <div class="loader-circle"></div>
+        <div class="loader-text">
+            <div class="logo-container">
+                <!-- YOUR LOGO IN LOADING SCREEN -->
+                <img src="img/logo.png" alt="Singati Engineering Logo" class="loading-logo">
+                <div class="logo-text">
+                    <h2>SINGATI</h2>
+                    <p>ENGINEERING PVT LTD</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="content">
+        <!-- Header -->
+        <header class="header">
+            <div class="container">
+                <nav class="navbar">
+                    <div class="logo">
+                        <!-- COMPANY LOGO - Add your logo as img/logo.png -->
+                        <img src="img/logo.png" alt="Singati Engineering Logo" class="logo-image">
+                        <div class="logo-text">
+                            <h1>SINGATI</h1>
+                            <p>ENGINEERING PVT LTD</p>
+                        </div>
+                    </div>
+
+                    <div class="nav-links">
+                        <a href="#home" class="nav-link active">Home</a>
+                        <a href="#about" class="nav-link">About</a>
                         <a href="#services" class="nav-link">Services</a>
-                    </li>
-                    <li class="nav-item">
                         <a href="#projects" class="nav-link">Projects</a>
-                    </li>
-                    <li class="nav-item">
                         <a href="#contact" class="nav-link">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="tel:9854045062" class="nav-btn">Call Now</a>
-                    </li>
-                </ul>
-                <div class="hamburger">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </div>
-            </nav>
-        </div>
-    </header>
-
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1 class="hero-title">Engineering & Construction Solutions</h1>
-                <p class="hero-subtitle">Building the future with precision, quality, and innovation. We deliver excellence in every project we undertake.</p>
-                <div class="hero-buttons">
-                    <a href="#contact" class="btn btn-primary">Contact Us</a>
-                    <a href="#services" class="btn btn-secondary">Our Services</a>
-                </div>
-            </div>
-        </div>
-        <div class="hero-overlay"></div>
-    </section>
-
-    <!-- About Us Section -->
-    <section id="about" class="about section-padding">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">About Our Company</h2>
-                <p class="section-subtitle">Building excellence since 2010</p>
-                <div class="underline"></div>
-            </div>
-            <div class="about-content">
-                <div class="about-text">
-                    <h3>Leading Engineering & Construction Firm</h3>
-                    <p>Singati Engineering Pvt Ltd is a premier construction and engineering company dedicated to delivering high-quality infrastructure projects. With over a decade of experience, we have successfully completed numerous projects across Nepal, earning a reputation for reliability, innovation, and timely delivery.</p>
-                    <p>Our team of experienced engineers, architects, and project managers work collaboratively to transform client visions into reality while adhering to the highest standards of safety and sustainability.</p>
-                </div>
-                <div class="about-cards">
-                    <div class="card">
-                        <div class="card-icon">
-                            <i class="fas fa-bullseye"></i>
-                        </div>
-                        <h4>Our Mission</h4>
-                        <p>To deliver exceptional engineering solutions that exceed client expectations while maintaining the highest standards of quality, safety, and environmental responsibility.</p>
                     </div>
-                    <div class="card">
-                        <div class="card-icon">
+
+                    <div class="nav-cta">
+                        <a href="tel:9854045062" class="cta-btn">
+                            <i class="fas fa-phone"></i>
+                            <span>Call Now</span>
+                        </a>
+                    </div>
+
+                    <button class="mobile-toggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <span>EST. 2074 BS</span>
+                    </div>
+                    <h1 class="hero-title">
+                        Building Nepal's Future with 
+                        <span class="highlight">Precision Engineering</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Leading civil construction, structural engineering, and property valuation services across Dolakha and beyond.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            Get Free Quote
+                        </a>
+                        <a href="#projects" class="btn btn-outline">
                             <i class="fas fa-eye"></i>
-                        </div>
-                        <h4>Our Vision</h4>
-                        <p>To be Nepal's most trusted and innovative engineering firm, recognized for transforming infrastructure and contributing to sustainable development.</p>
-                    </div>
-                    <div class="card">
-                        <div class="card-icon">
-                            <i class="fas fa-handshake"></i>
-                        </div>
-                        <h4>Our Values</h4>
-                        <p>Integrity, quality, innovation, safety, and client satisfaction are the core principles that guide every project we undertake.</p>
+                            View Our Projects
+                        </a>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <!-- Services Section -->
-    <section id="services" class="services section-padding">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Our Services</h2>
-                <p class="section-subtitle">Comprehensive engineering and construction solutions</p>
-                <div class="underline"></div>
-            </div>
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-building"></i>
+            <!-- Stats Section -->
+            <div class="hero-stats">
+                <div class="container">
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <h3>8+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>15+</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>100%</h3>
+                            <p>Client Satisfaction</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>5+</h3>
+                            <p>Expert Members</p>
+                        </div>
                     </div>
-                    <h3>Civil Construction</h3>
-                    <p>Complete civil construction services including residential, commercial, and industrial buildings with focus on quality and durability.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-road"></i>
-                    </div>
-                    <h3>Road & Bridge Construction</h3>
-                    <p>Design, planning, and construction of roads, highways, and bridges using modern techniques and materials for long-lasting infrastructure.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-industry"></i>
-                    </div>
-                    <h3>Structural Engineering</h3>
-                    <p>Advanced structural analysis, design, and consulting services ensuring safety, stability, and compliance with all regulatory standards.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-clipboard-check"></i>
-                    </div>
-                    <h3>Project Management</h3>
-                    <p>End-to-end project management services from conception to completion, ensuring projects are delivered on time and within budget.</p>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="projects section-padding">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Our Projects</h2>
-                <p class="section-subtitle">Showcasing our engineering excellence</p>
-                <div class="underline"></div>
-            </div>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-img">
-                        <div class="img-placeholder">Commercial Complex</div>
-                    </div>
-                    <div class="project-info">
-                        <h3>Kathmandu Commercial Complex</h3>
-                        <p>10-story commercial building with modern facilities and sustainable design elements.</p>
-                    </div>
+        <!-- About Section -->
+        <section id="about" class="section about">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">ABOUT OUR COMPANY</span>
+                    <h2 class="section-title">Engineering Excellence Since 2074 BS</h2>
+                    <p class="section-description">
+                        Founded on 2074-04-21, Singati Engineering has been at the forefront of quality construction and engineering services in Nepal.
+                    </p>
                 </div>
-                <div class="project-card">
-                    <div class="project-img">
-                        <div class="img-placeholder">Bridge Construction</div>
-                    </div>
-                    <div class="project-info">
-                        <h3>Trishuli River Bridge</h3>
-                        <p>250-meter suspension bridge connecting rural communities with urban centers.</p>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-img">
-                        <div class="img-placeholder">Road Project</div>
-                    </div>
-                    <div class="project-info">
-                        <h3>Pokhara Highway Expansion</h3>
-                        <p>15km highway expansion project with improved safety features and drainage systems.</p>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-img">
-                        <div class="img-placeholder">Residential Project</div>
-                    </div>
-                    <div class="project-info">
-                        <h3>Lalitpur Housing Project</h3>
-                        <p>Modern residential complex with 50 units, park, and community facilities.</p>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-img">
-                        <div class="img-placeholder">Industrial Project</div>
-                    </div>
-                    <div class="project-info">
-                        <h3>Biratnagar Industrial Park</h3>
-                        <p>Industrial facility with specialized infrastructure for manufacturing units.</p>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-img">
-                        <div class="img-placeholder">Public Building</div>
-                    </div>
-                    <div class="project-info">
-                        <h3>Chitwan Hospital Extension</h3>
-                        <p>Healthcare facility expansion with earthquake-resistant design and modern amenities.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact section-padding">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Contact Us</h2>
-                <p class="section-subtitle">Get in touch for your next project</p>
-                <div class="underline"></div>
-            </div>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h3>Get in Touch</h3>
-                    <p>Reach out to us for inquiries, project consultations, or to request a quote. Our team is ready to assist you with your engineering and construction needs.</p>
-                    
-                    <div class="contact-details">
-                        <div class="contact-item">
-                            <div class="contact-icon">
-                                <i class="fas fa-phone"></i>
+                <div class="about-grid">
+                    <div class="about-content">
+                        <h3>Our Commitment to Quality</h3>
+                        <p>
+                            As a registered engineering firm, we specialize in delivering comprehensive construction solutions with unwavering commitment to quality, safety, and timely delivery.
+                        </p>
+                        
+                        <div class="features">
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <div>
+                                    <h4>Certified Engineers</h4>
+                                    <p>Our team consists of licensed professionals with extensive experience.</p>
+                                </div>
                             </div>
-                            <div class="contact-text">
-                                <h4>Phone</h4>
-                                <a href="tel:9854045062">9854045062</a>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <div>
+                                    <h4>Modern Equipment</h4>
+                                    <p>State-of-the-art machinery for precise and efficient construction.</p>
+                                </div>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <div>
+                                    <h4>Quality Materials</h4>
+                                    <p>We use only certified, high-quality materials from trusted suppliers.</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="contact-item">
-                            <div class="contact-icon">
-                                <i class="fas fa-envelope"></i>
+                    </div>
+
+                    <div class="about-image">
+                        <div class="director-card">
+                            <div class="director-image">
+                                <!-- Add Praladh Khadka photo as img/director.jpg -->
+                                <img src="img/director.jpg" alt="Praladh Khadka, Director" class="director-photo-img">
+                                <div class="image-placeholder" id="directorPlaceholder">
+                                    <i class="fas fa-user-hard-hat"></i>
+                                    <p>Er. Praladh Khadka</p>
+                                </div>
                             </div>
-                            <div class="contact-text">
-                                <h4>Email</h4>
-                                <a href="mailto:khadkapraladh@gmail.com">khadkapraladh@gmail.com</a>
+                            <div class="director-info">
+                                <h4>Er. Praladh Khadka</h4>
+                                <p class="position">Director & Founder</p>
+                                <p class="contact">
+                                    <i class="fas fa-phone"></i> 9854045062 / 9765991313
+                                </p>
+                                <p class="experience">9+ Years Experience</p>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="section services">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">OUR SERVICES</span>
+                    <h2 class="section-title">Comprehensive Engineering Solutions</h2>
+                    <p class="section-description">
+                        From design to execution, we provide end-to-end engineering services for residential, commercial, and government projects.
+                    </p>
+                </div>
+
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <h3>Civil Construction</h3>
+                        <p>Complete construction services for residential, commercial, and industrial buildings with earthquake-resistant design.</p>
+                        <a href="#contact" class="service-link">Get Quote <i class="fas fa-arrow-right"></i></a>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-road"></i>
+                        </div>
+                        <h3>Road & Bridge Construction</h3>
+                        <p>Design and construction of roads, highways, and bridges using modern engineering techniques and materials.</p>
+                        <a href="#contact" class="service-link">Get Quote <i class="fas fa-arrow-right"></i></a>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-drafting-compass"></i>
+                        </div>
+                        <h3>Design & Drawing</h3>
+                        <p>Architectural and structural design services with detailed technical drawings and plans for all types of buildings.</p>
+                        <a href="#contact" class="service-link">Get Quote <i class="fas fa-arrow-right"></i></a>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Property Valuation</h3>
+                        <p>Professional property valuation services for residential, commercial, and industrial properties across Nepal.</p>
+                        <a href="#contact" class="service-link">Get Quote <i class="fas fa-arrow-right"></i></a>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-file-contract"></i>
+                        </div>
+                        <h3>Contract Works</h3>
+                        <p>Government and private contract works with complete project management and execution services.</p>
+                        <a href="#contact" class="service-link">Get Quote <i class="fas fa-arrow-right"></i></a>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-hard-hat"></i>
+                        </div>
+                        <h3>Structural Engineering</h3>
+                        <p>Advanced structural analysis and consulting ensuring safety, stability, and compliance with regulations.</p>
+                        <a href="#contact" class="service-link">Get Quote <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section projects">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">OUR WORK</span>
+                    <h2 class="section-title">Completed Projects</h2>
+                    <p class="section-description">
+                        A showcase of our completed projects demonstrating quality, innovation, and engineering excellence.
+                    </p>
+                </div>
+
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <!-- Add project 1 photo as img/projects/project1.jpg -->
+                            <img src="img/projects/project1.jpg" alt="Singati Municipality Building" class="project-img">
+                            <div class="project-overlay">
+                                <div class="project-details">
+                                    <h4>Government Building</h4>
+                                    <p>Completed 2022</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Singati Municipality Building</h3>
+                            <p>Government office building with modern facilities and earthquake-resistant design.</p>
+                            <span class="project-tag">Completed</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <!-- Add project 2 photo as img/projects/project2.jpg -->
+                            <img src="img/projects/project2.jpg" alt="Charikot Road Expansion" class="project-img">
+                            <div class="project-overlay">
+                                <div class="project-details">
+                                    <h4>Road Construction</h4>
+                                    <p>Completed 2021</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Charikot Road Expansion</h3>
+                            <p>5km road expansion project with proper drainage system and safety features.</p>
+                            <span class="project-tag">Completed</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <!-- Add project 3 photo as img/projects/project3.jpg -->
+                            <img src="img/projects/project3.jpg" alt="Bhimeshwor Bridge" class="project-img">
+                            <div class="project-overlay">
+                                <div class="project-details">
+                                    <h4>Bridge Construction</h4>
+                                    <p>Completed 2020</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Bhimeshwor Bridge</h3>
+                            <p>75-meter suspension bridge connecting communities with enhanced safety standards.</p>
+                            <span class="project-tag">Completed</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- View All Projects Button -->
+                <div class="view-all-projects">
+                    <a href="#contact" class="btn btn-outline">
+                        <i class="fas fa-list"></i>
+                        View More Projects
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">GET IN TOUCH</span>
+                    <h2 class="section-title">Contact Our Engineering Team</h2>
+                    <p class="section-description">
+                        Ready to start your next project? Contact us for a free consultation and quote.
+                    </p>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info">
                         <div class="contact-item">
                             <div class="contact-icon">
                                 <i class="fas fa-map-marker-alt"></i>
                             </div>
-                            <div class="contact-text">
-                                <h4>Location</h4>
-                                <p>Singati, Dolakha, Nepal</p>
+                            <div>
+                                <h4>Head Office - Bhorle</h4>
+                                <p>Bigu RM-04, Dolakha</p>
                             </div>
                         </div>
+
                         <div class="contact-item">
                             <div class="contact-icon">
-                                <i class="fas fa-clock"></i>
+                                <i class="fas fa-map-marker-alt"></i>
                             </div>
-                            <div class="contact-text">
-                                <h4>Business Hours</h4>
-                                <p>Sunday - Friday: 9:00 AM - 6:00 PM</p>
+                            <div>
+                                <h4>Contact Office - Charikot</h4>
+                                <p>Bhimeshwor Municipality-06, Charighyang, Dolakha</p>
                             </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <h4>Phone Numbers</h4>
+                                <p>9854045062 / 9765991313</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4>Email Address</h4>
+                                <p>info@singatiengineering.com.np</p>
+                            </div>
+                        </div>
+
+                        <div class="social-links">
+                            <!-- Update with your Facebook link -->
+                            <a href="https://www.facebook.com/engineersinsingati/" target="_blank" class="social-btn">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="https://wa.me/9779765991313" target="_blank" class="social-btn whatsapp">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
                         </div>
                     </div>
-                    
-                    <div class="social-links">
-                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+
+                    <div class="contact-form-wrapper">
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <input type="text" id="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" placeholder="Email Address" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" id="phone" placeholder="Phone Number" required>
+                            </div>
+                            <div class="form-group">
+                                <select id="service" required>
+                                    <option value="">Select Service</option>
+                                    <option value="construction">Civil Construction</option>
+                                    <option value="road">Road & Bridge</option>
+                                    <option value="design">Design & Drawing</option>
+                                    <option value="valuation">Valuation</option>
+                                    <option value="contract">Contract Works</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" placeholder="Project Details" rows="4" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">
+                                <i class="fas fa-paper-plane"></i>
+                                Send Message
+                            </button>
+                        </form>
                     </div>
                 </div>
-                
-                <div class="contact-form-container">
-                    <h3>Send us a Message</h3>
-                    <form id="contactForm" class="contact-form">
-                        <div class="form-group">
-                            <input type="text" id="name" placeholder="Your Name" required>
-                            <div class="error-message" id="nameError"></div>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" id="email" placeholder="Your Email" required>
-                            <div class="error-message" id="emailError"></div>
-                        </div>
-                        <div class="form-group">
-                            <input type="tel" id="phone" placeholder="Your Phone Number" required>
-                            <div class="error-message" id="phoneError"></div>
-                        </div>
-                        <div class="form-group">
-                            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
-                            <div class="error-message" id="messageError"></div>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Send Message</button>
-                        <div id="formSuccess" class="success-message"></div>
-                    </form>
-                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-about">
-                    <h3>Singati Engineering Pvt Ltd</h3>
-                    <p>Leading engineering and construction company delivering quality infrastructure projects across Nepal with expertise, innovation, and commitment to excellence.</p>
-                </div>
-                <div class="footer-links">
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About Us</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="footer-contact">
-                    <h4>Contact Info</h4>
-                    <p><i class="fas fa-phone"></i> 9854045062</p>
-                    <p><i class="fas fa-envelope"></i> khadkapraladh@gmail.com</p>
-                    <p><i class="fas fa-map-marker-alt"></i> Singati, Dolakha, Nepal</p>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; <span id="currentYear"></span> Singati Engineering Pvt Ltd. All rights reserved.</p>
-                <p>Website designed for professional engineering services</p>
-            </div>
-        </div>
-    </footer>
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-col">
+                        <div class="logo">
+                            <!-- Same logo as header -->
+                            <img src="img/logo.png" alt="Singati Engineering Logo" class="logo-image">
+                            <div class="logo-text">
+                                <h3>SINGATI</h3>
+                                <p>ENGINEERING PVT LTD</p>
+                            </div>
+                        </div>
+                        <p class="footer-description">
+                            Leading engineering and construction services in Nepal since 2074 BS.
+                        </p>
+                    </div>
 
+                    <div class="footer-col">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#services">Civil Construction</a></li>
+                            <li><a href="#services">Road & Bridge</a></li>
+                            <li><a href="#services">Design & Drawing</a></li>
+                            <li><a href="#services">Property Valuation</a></li>
+                            <li><a href="#services">Contract Works</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4>Contact Info</h4>
+                        <div class="footer-contact">
+                            <p><i class="fas fa-phone"></i> 9854045062 / 9765991313</p>
+                            <p><i class="fas fa-envelope"></i> info@singatiengineering.com.np</p>
+                            <p><i class="fas fa-map-marker-alt"></i> Bhorle & Charikot, Dolakha</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <p>&copy; <span id="currentYear"></span> Singati Engineering Pvt Ltd. All rights reserved.</p>
+                    <p>Established 2074 BS</p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Back to Top -->
+        <button class="back-to-top">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+    </div>
+
+    <!-- JavaScript -->
     <script src="js/scripts.js"></script>
 </body>
 </html>

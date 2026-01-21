@@ -378,28 +378,6 @@ function initAnimations() {
 function initImageHandling() {
     console.log('🖼️ Image handling initialized');
     
-    // Handle logo image
-    const logoImages = document.querySelectorAll('.logo-image');
-    logoImages.forEach(img => {
-        img.onerror = function() {
-            console.log('Logo image failed to load, using placeholder');
-            this.style.display = 'none';
-            // Add a placeholder icon
-            const parent = this.parentElement;
-            if (parent && parent.classList.contains('logo')) {
-                const icon = document.createElement('div');
-                icon.className = 'logo-icon';
-                icon.innerHTML = '<i class="fas fa-hard-hat"></i>';
-                parent.insertBefore(icon, parent.firstChild);
-            }
-        };
-        
-        // Check if image loaded
-        if (img.complete && img.naturalHeight === 0) {
-            img.onerror();
-        }
-    });
-    
     // Handle director photo
     const directorImg = document.querySelector('.director-photo-img');
     const directorPlaceholder = document.getElementById('directorPlaceholder');
@@ -497,6 +475,16 @@ function initEnhancedLinks() {
 
 // Initialize enhanced links
 initEnhancedLinks();
+
+// ===== PERFORMANCE OPTIMIZATION =====
+// Debounce scroll event
+let scrollTimeout;
+window.addEventListener('scroll', () => {
+    clearTimeout(scrollTimeout);
+    scrollTimeout = setTimeout(() => {
+        // Handle scroll-based actions here
+    }, 100);
+});
 
 // ===== ERROR HANDLING =====
 window.addEventListener('error', function(e) {
